@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>阿梓说游戏 - 阿梓说</title>
+  <meta name="description" content="阿梓的游戏评测、资讯、攻略和游戏存档">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <!-- 导航栏 -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="../index.html" class="logo">🍊 阿梓说</a>
+      <ul class="nav-links">
+        <li><a href="../games/index.html" class="active">🎮 游戏</a></li>
+        <li><a href="../ai/index.html">🤖 AI</a></li>
+        <li><a href="../life/index.html">📖 碎碎念</a></li>
+        <li><a href="../about.html">👤 关于</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- 板块横幅 -->
+  <header class="section-hero games-hero">
+    <div class="hero-content">
+      <h1>🎮 阿梓说游戏</h1>
+      <p class="subtitle">游戏评测、资讯、攻略，还有玩过的游戏记录</p>
+    </div>
+  </header>
+
+  <!-- 筛选标签 -->
+  <section class="filters">
+    <div class="filter-container">
+      <button class="filter-btn active" data-filter="all">全部</button>
+      <button class="filter-btn" data-filter="review">评测</button>
+      <button class="filter-btn" data-filter="news">资讯</button>
+      <button class="filter-btn" data-filter="guide">攻略</button>
+      <button class="filter-btn" data-filter="archive">存档</button>
+    </div>
+  </section>
+
+  <!-- 文章列表 -->
+  <section class="content">
+    <div class="posts-grid" id="games-posts">
+      <!-- 示例文章卡片 -->
+      <article class="post-card" data-category="review">
+        <div class="post-meta">
+          <span class="post-tag review">评测</span>
+          <span class="post-date">2026-04-18</span>
+        </div>
+        <h3 class="post-title">
+          <a href="#">《原神》5.0到底值不值得入坑？老玩家说实话</a>
+        </h3>
+        <p class="post-excerpt">作为入坑快4年的老玩家，我来聊聊5.0版本的体验，以及新手现在入坑还来得及吗...</p>
+        <div class="post-footer">
+          <span class="post-readtime">⏱️ 8分钟阅读</span>
+          <a href="#" class="read-more">阅读全文 →</a>
+        </div>
+      </article>
+
+      <article class="post-card" data-category="news">
+        <div class="post-meta">
+          <span class="post-tag news">资讯</span>
+          <span class="post-date">2026-04-15</span>
+        </div>
+        <h3 class="post-title">
+          <a href="#">《尘白禁区》停服倒计时？玩家何去何从</a>
+        </h3>
+        <p class="post-excerpt">曾经火热的国产二次元射击游戏，官方宣布停运后，玩家社区反应如何？...</p>
+        <div class="post-footer">
+          <span class="post-readtime">⏱️ 5分钟阅读</span>
+          <a href="#" class="read-more">阅读全文 →</a>
+        </div>
+      </article>
+
+      <article class="post-card" data-category="guide">
+        <div class="post-meta">
+          <span class="post-tag guide">攻略</span>
+          <span class="post-date">2026-04-10</span>
+        </div>
+        <h3 class="post-title">
+          <a href="#">《绝区零》新手入坑指南，10个必知小技巧</a>
+        </h3>
+        <p class="post-excerpt">米哈游新手游上线，作为抢先体验玩家，分享一些快速上手的心得...</p>
+        <div class="post-footer">
+          <span class="post-readtime">⏱️ 6分钟阅读</span>
+          <a href="#" class="read-more">阅读全文 →</a>
+        </div>
+      </article>
+
+      <article class="post-card" data-category="archive">
+        <div class="post-meta">
+          <span class="post-tag archive">存档</span>
+          <span class="post-date">2026-04-05</span>
+        </div>
+        <h3 class="post-title">
+          <a href="#">阿梓的游戏存档 vol.1 - 那些年我肝过的游戏</a>
+        </h3>
+        <p class="post-excerpt">盘点一下这些年玩过的游戏，从手游到单机，总游戏时长超过5000小时...</p>
+        <div class="post-footer">
+          <span class="post-readtime">⏱️ 10分钟阅读</span>
+          <a href="#" class="read-more">阅读全文 →</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p>🍊 阿梓说 © 2026 | 用爱发电中</p>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+  <script>
+    // 筛选功能
+    initFilters();
+  </script>
+</body>
+</html>
