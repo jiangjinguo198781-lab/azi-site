@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>阿梓说 - 游戏、AI、还有生活</title>
+  <meta name="description" content="阿梓的个人小站，分享游戏评测、AI工具测评、生活碎碎念">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- 导航栏 -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">🍊 阿梓说</a>
+      <ul class="nav-links">
+        <li><a href="games/index.html">🎮 游戏</a></li>
+        <li><a href="ai/index.html">🤖 AI</a></li>
+        <li><a href="life/index.html">📖 碎碎念</a></li>
+        <li><a href="about.html">👤 关于</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- 首页横幅 -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>🍊 阿梓的小站</h1>
+      <p class="tagline">"游戏是第九艺术，AI是第十一"</p>
+      <p class="subtitle">18岁女大学生，记录游戏人生，探索AI工具</p>
+    </div>
+  </header>
+
+  <!-- 板块入口 -->
+  <section class="sections">
+    <div class="section-grid">
+      <!-- 游戏板块 -->
+      <a href="games/index.html" class="section-card games">
+        <div class="section-icon">🎮</div>
+        <h2>阿梓说游戏</h2>
+        <p>游戏评测、资讯、攻略、游戏存档</p>
+        <span class="section-count">12 篇</span>
+      </a>
+
+      <!-- AI板块 -->
+      <a href="ai/index.html" class="section-card ai">
+        <div class="section-icon">🤖</div>
+        <h2>阿梓说AI</h2>
+        <p>工具测评、使用心得、教程分享</p>
+        <span class="section-count">8 篇</span>
+      </a>
+
+      <!-- 碎碎念板块 -->
+      <a href="life/index.html" class="section-card life">
+        <div class="section-icon">📖</div>
+        <h2>阿梓碎碎念</h2>
+        <p>生活分享、日常吐槽、随想记录</p>
+        <span class="section-count">5 篇</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- 最新文章 -->
+  <section class="latest-posts">
+    <h2 class="section-title">📝 最新文章</h2>
+    <div class="posts-list" id="posts-list">
+      <!-- 动态加载 -->
+    </div>
+  </section>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p>🍊 阿梓说 © 2026 | 用爱发电中</p>
+      <p class="footer-links">
+        <a href="https://github.com/jiangjinguo198781-lab" target="_blank">GitHub</a>
+        <span>|</span>
+        <a href="https://jq.qq.com/?_wv=1027&k=XXXXXXXX" target="_blank">QQ群</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    // 加载最新文章
+    loadLatestPosts();
+  </script>
+</body>
+</html>
