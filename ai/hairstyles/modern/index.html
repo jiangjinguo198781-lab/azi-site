@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>鐜颁唬鍙戝瀷 | AI 鍙戝瀷鍥鹃壌</title>
+  <meta name="description" content="鐜颁唬娴佽鍙戝瀷鍥鹃壌锛屼笁瑙嗚瀵圭収">
+  <link rel="stylesheet" href="../../css/style.css">
+  <style>
+    body { background: #f8f6f3; }
+    .page-header {
+      background: linear-gradient(135deg, #2c3e50 0%, #4a6fa5 100%);
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+    .page-header h1 { font-size: 2.2rem; margin-bottom: 8px; }
+    .page-header p { opacity: 0.85; }
+    .sub-nav {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      padding: 16px;
+      flex-wrap: wrap;
+    }
+    .sub-nav a {
+      padding: 8px 20px;
+      background: white;
+      border-radius: 20px;
+      text-decoration: none;
+      color: #4a6fa5;
+      font-size: 0.9rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      transition: all 0.2s;
+    }
+    .sub-nav a:hover { background: #4a6fa5; color: white; }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 24px;
+      padding: 20px 20px 40px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .style-card {
+      background: white;
+      border-radius: 14px;
+      overflow: hidden;
+      text-decoration: none;
+      color: #333;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .style-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+    }
+    .style-card .preview {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      background: #eee;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ccc;
+      font-size: 3rem;
+    }
+    .style-card .info { padding: 16px; }
+    .style-card .name { font-size: 1.1rem; font-weight: bold; margin-bottom: 4px; }
+    .style-card .desc { font-size: 0.85rem; color: #888; margin-bottom: 8px; }
+    .style-card .tags { display: flex; gap: 6px; flex-wrap: wrap; }
+    .style-card .tag {
+      background: #f0f4ff;
+      color: #4a6fa5;
+      font-size: 0.7rem;
+      padding: 2px 8px;
+      border-radius: 10px;
+    }
+    .back-link {
+      display: inline-block;
+      padding: 12px 24px;
+      margin: 20px 0 0 20px;
+      background: #4a6fa5;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .back-link:hover { background: #3a5a8a; }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="../../index.html" class="logo">馃崐 闃挎璇?/a>
+      <ul class="nav-links">
+        <li><a href="../../games/index.html">馃幃 娓告垙</a></li>
+        <li><a href="../../ai/index.html">馃 AI</a></li>
+        <li><a href="../../life/index.html">馃摉 纰庣蹇?/a></li>
+        <li><a href="../../about.html">馃懁 鍏充簬</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="page-header">
+    <h1>鉁?鐜颁唬鍙戝瀷</h1>
+    <p>褰撲笅娴佽 路 涓夎瑙掑浘閴?/p>
+  </div>
+
+  <a href="../index.html" class="back-link">鈫?杩斿洖鍙戝瀷搴撻椤?/a>
+
+  <div class="sub-nav">
+    <a href="#short">鐭彂绯?/a>
+    <a href="#medium">涓彂绯?/a>
+    <a href="#long">闀垮彂绯?/a>
+    <a href="#bangs">鍒樻捣涓撻</a>
+    <a href="#special">鐗规畩閫犲瀷</a>
+  </div>
+
+  <div class="gallery-grid">
+    <!-- 鐭彂绯?-->
+    <a href="modern/short.html#style-1" class="style-card">
+      <div class="preview">鉁傦笍</div>
+      <div class="info">
+        <div class="name">灞傛鐭彂</div>
+        <div class="desc">缁忓吀灞傛锛屽垬娴峰埌棰ч</div>
+        <div class="tags"><span class="tag">鐧炬惌</span><span class="tag">鍑忛緞</span></div>
+      </div>
+    </a>
+    <a href="modern/short.html#style-2" class="style-card">
+      <div class="preview">馃摎</div>
+      <div class="info">
+        <div class="name">瀛︾敓鐭彂</div>
+        <div class="desc">榻愯€崇煭鍙戯紝娓呯函鍑忛緞</div>
+        <div class="tags"><span class="tag">娓呯函</span><span class="tag">娲诲姏</span></div>
+      </div>
+    </a>
+    <a href="modern/short.html#style-3" class="style-card">
+      <div class="preview">馃</div>
+      <div class="info">
+        <div class="name">瓒呯煭鍙?/div>
+        <div class="desc">鑰充笂绮剧伒澶达紝鍒╄惤骞茬粌</div>
+        <div class="tags"><span class="tag">甯呮皵</span><span class="tag">涓€?/span></div>
+      </div>
+    </a>
+    <a href="modern/short.html#style-4" class="style-card">
+      <div class="preview">馃悷</div>
+      <div class="info">
+        <div class="name">椴婚奔澶?/div>
+        <div class="desc">鍓嶉暱鍚庣煭锛屽眰娆″垎鏄?/div>
+        <div class="tags"><span class="tag">涓€?/span><span class="tag">娼祦</span></div>
+      </div>
+    </a>
+    <a href="modern/short.html#style-5" class="style-card">
+      <div class="preview">馃懅</div>
+      <div class="info">
+        <div class="name">闊╃郴濡瑰澶?/div>
+        <div class="desc">鍘氶噸鍒樻捣+榻愯剸鐩村彂</div>
+        <div class="tags"><span class="tag">闊╃郴</span><span class="tag">鍙埍</span></div>
+      </div>
+    </a>
+
+    <!-- 涓彂绯?-->
+    <a href="modern/medium.html#style-1" class="style-card">
+      <div class="preview">馃拵</div>
+      <div class="info">
+        <div class="name">閿侀鍙?/div>
+        <div class="desc">鍙戝熬鍒氬ソ鍦ㄩ攣楠ㄤ綅缃?/div>
+        <div class="tags"><span class="tag">鐭ユ€?/span><span class="tag">鐧炬惌</span></div>
+      </div>
+    </a>
+    <a href="modern/medium.html#style-2" class="style-card">
+      <div class="preview">馃攧</div>
+      <div class="info">
+        <div class="name">鍐呮墸鐭彂</div>
+        <div class="desc">鍙戝熬鍚戝唴鍗?/div>
+        <div class="tags"><span class="tag">浼橀泤</span><span class="tag">閫氬嫟</span></div>
+      </div>
+    </a>
+    <a href="modern/medium.html#style-3" class="style-card">
+      <div class="preview">馃寑</div>
+      <div class="info">
+        <div class="name">C鍗蜂腑鍙?/div>
+        <div class="desc">澶瀛楀嵎寮э紝鑷劧鎱垫噿</div>
+        <div class="tags"><span class="tag">鎱垫噿</span><span class="tag">娉曞紡</span></div>
+      </div>
+    </a>
+    <a href="modern/medium.html#style-4" class="style-card">
+      <div class="preview">馃尡</div>
+      <div class="info">
+        <div class="name">鍒濇亱鐭彂</div>
+        <div class="desc">鍒颁笅宸寸殑鐩村彂锛屾竻绾劅</div>
+        <div class="tags"><span class="tag">娓呯函</span><span class="tag">鍒濇亱</span></div>
+      </div>
+    </a>
+    <a href="modern/medium.html#style-5" class="style-card">
+      <div class="preview">馃寠</div>
+      <div class="info">
+        <div class="name">寰嵎涓彂</div>
+        <div class="desc">杞诲井娉㈡氮锛屼笉澶稿紶</div>
+        <div class="tags"><span class="tag">鑷劧</span><span class="tag">鏃ュ父</span></div>
+      </div>
+    </a>
+
+    <!-- 闀垮彂绯?-->
+    <a href="modern/long.html#style-1" class="style-card">
+      <div class="preview">馃寫</div>
+      <div class="info">
+        <div class="name">榛戦暱鐩?/div>
+        <div class="desc">缁忓吀榛戣壊闀跨洿鍙?/div>
+        <div class="tags"><span class="tag">缁忓吀</span><span class="tag">娓呯函</span></div>
+      </div>
+    </a>
+    <a href="modern/long.html#style-2" class="style-card">
+      <div class="preview">馃寠</div>
+      <div class="info">
+        <div class="name">闀垮嵎鍙?/div>
+        <div class="desc">澶ф尝娴紝鎴愮啛濂充汉鍛?/div>
+        <div class="tags"><span class="tag">濂充汉鍛?/span><span class="tag">浼橀泤</span></div>
+      </div>
+    </a>
+    <a href="modern/long.html#style-3" class="style-card">
+      <div class="preview">馃幀</div>
+      <div class="info">
+        <div class="name">娓闀垮彂</div>
+        <div class="desc">80骞翠唬澶嶅彜娓</div>
+        <div class="tags"><span class="tag">澶嶅彜</span><span class="tag">娓</span></div>
+      </div>
+    </a>
+    <a href="modern/long.html#style-4" class="style-card">
+      <div class="preview">馃</div>
+      <div class="info">
+        <div class="name">缇芥瘺鍓暱鍙?/div>
+        <div class="desc">鍙戝熬纰庡壀锛岃交鐩堟劅</div>
+        <div class="tags"><span class="tag">杞荤泩</span><span class="tag">绌烘皵鎰?/span></div>
+      </div>
+    </a>
+
+    <!-- 鍒樻捣涓撻 -->
+    <a href="modern/bangs.html#style-1" class="style-card">
+      <div class="preview">鉃★笍</div>
+      <div class="info">
+        <div class="name">鍏瓧鍒樻捣</div>
+        <div class="desc">涓棿鍒嗗紑锛屽悜涓や晶鍏瓧</div>
+        <div class="tags"><span class="tag">鐦﹁劯</span><span class="tag">闊╃郴</span></div>
+      </div>
+    </a>
+    <a href="modern/bangs.html#style-2" class="style-card">
+      <div class="preview">馃挩</div>
+      <div class="info">
+        <div class="name">绌烘皵鍒樻捣</div>
+        <div class="desc">杞昏杽閫忔槑鎰熷垬娴?/div>
+        <div class="tags"><span class="tag">鏃ョ郴</span><span class="tag">鐢滅編</span></div>
+      </div>
+    </a>
+    <a href="modern/bangs.html#style-3" class="style-card">
+      <div class="preview">馃尶</div>
+      <div class="info">
+        <div class="name">娉曞紡鍒樻捣</div>
+        <div class="desc">鍑屼贡鎰熸叺鎳掑垬娴?/div>
+        <div class="tags"><span class="tag">娉曞紡</span><span class="tag">鎱垫噿</span></div>
+      </div>
+    </a>
+    <a href="modern/bangs.html#style-4" class="style-card">
+      <div class="preview">馃憗锔?/div>
+      <div class="info">
+        <div class="name">鐪変笂鍒樻捣</div>
+        <div class="desc">鐭垬娴凤紝闇插嚭鐪夋瘺</div>
+        <div class="tags"><span class="tag">涓€?/span><span class="tag">鍓嶅崼</span></div>
+      </div>
+    </a>
+
+    <!-- 鐗规畩閫犲瀷 -->
+    <a href="modern/special.html#style-1" class="style-card">
+      <div class="preview">馃尭</div>
+      <div class="info">
+        <div class="name">杈涜姺钑惧彂鍨?/div>
+        <div class="desc">閿侀鍙?灞傛鍒樻捣</div>
+        <div class="tags"><span class="tag">缃戠孩</span><span class="tag">鐭ユ€?/span></div>
+      </div>
+    </a>
+    <a href="modern/special.html#style-2" class="style-card">
+      <div class="preview">馃敟</div>
+      <div class="info">
+        <div class="name">娓ｅコ澶ф尝娴?/div>
+        <div class="desc">娣盨鍗凤紝钃澗澶ф皵</div>
+        <div class="tags"><span class="tag">寰″</span><span class="tag">姘斿満</span></div>
+      </div>
+    </a>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p>馃崐 闃挎璇?漏 2026 | 鐢ㄧ埍鍙戠數涓?/p>
+    </div>
+  </footer>
+</body>
+</html>
