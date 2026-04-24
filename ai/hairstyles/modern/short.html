@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>鐭彂绯?| 鐜颁唬鍙戝瀷</title>
+  <meta name="description" content="鐭彂绯诲彂鍨嬪浘閴达紝灞傛鐭彂銆佸鐢熺煭鍙戙€佽秴鐭彂銆侀不楸煎ご銆侀煩绯诲濡瑰ご">
+  <link rel="stylesheet" href="../../css/style.css">
+  <style>
+    body { background: #f8f6f3; }
+    .page-header { background: linear-gradient(135deg, #2c3e50 0%, #4a6fa5 100%); color: white; padding: 50px 20px; text-align: center; }
+    .page-header h1 { font-size: 2.2rem; margin-bottom: 8px; }
+    .back-link { display: inline-block; padding: 10px 20px; margin: 20px 0 0 20px; background: rgba(255,255,255,0.15); color: white; text-decoration: none; border-radius: 8px; backdrop-filter: blur(4px); }
+    .style-list { max-width: 900px; margin: 40px auto; padding: 0 20px; }
+    .style-item { background: white; border-radius: 14px; padding: 24px; margin-bottom: 20px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; align-items: start; }
+    .style-item h2 { font-size: 1.3rem; margin-bottom: 6px; color: #2c3e50; grid-column: 1 / -1; }
+    .style-item .desc { color: #666; font-size: 0.9rem; grid-column: 1 / -1; margin-bottom: 8px; }
+    .style-item .tag { background: #e8f0ff; color: #4a6fa5; font-size: 0.75rem; padding: 3px 10px; border-radius: 12px; display: inline-block; margin-right: 6px; margin-bottom: 8px; }
+    .photo-card { border-radius: 10px; overflow: hidden; }
+    .photo-card img { width: 100%; aspect-ratio: 1; object-fit: cover; background: #eee; }
+    .photo-card .label { padding: 8px; text-align: center; font-size: 0.8rem; color: #888; }
+    .photo-placeholder { width: 100%; aspect-ratio: 1; background: linear-gradient(135deg, #f0ebe5, #e8e0d8); display: flex; align-items: center; justify-content: center; font-size: 2.5rem; color: #ccc; }
+    .prompt-box { background: #2c3e50; color: #e8e0d8; border-radius: 14px; padding: 20px; grid-column: 1 / -1; margin-top: 8px; }
+    .prompt-box h3 { color: #f0c060; font-size: 0.95rem; margin-bottom: 10px; }
+    .prompt-box pre { font-family: monospace; font-size: 0.8rem; line-height: 1.7; white-space: pre-wrap; }
+    .prompt-box .copy-btn { background: #f0c060; color: #2c3e50; border: none; padding: 6px 14px; border-radius: 5px; cursor: pointer; font-size: 0.8rem; margin-top: 8px; }
+    @media (max-width: 600px) { .style-item { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <nav class="navbar"><div class="nav-container"><a href="../../index.html" class="logo">馃崐 闃挎璇?/a><ul class="nav-links"><li><a href="../../games/index.html">馃幃 娓告垙</a></li><li><a href="../../ai/index.html">馃 AI</a></li><li><a href="../../life/index.html">馃摉 纰庣蹇?/a></li><li><a href="../../about.html">馃懁 鍏充簬</a></li></ul></div></nav>
+  <div class="page-header">
+    <a href="../index.html" class="back-link">鈫?鐜颁唬鍙戝瀷</a>
+    <h1>鉁傦笍 鐭彂绯?/h1>
+    <p style="opacity:0.85;">5 涓彂鍨?路 涓夎瑙掑鐓?/p>
+  </div>
+  <div class="style-list">
+
+    <!-- 灞傛鐭彂 -->
+    <div class="style-item" id="style-1">
+      <h2>灞傛鐭彂</h2>
+      <p class="desc">缁忓吀灞傛锛屽垬娴峰埌棰ч锛屼袱渚уご鍙戦€愭笎鍔犻暱锛屽眰娆″垎鏄庯紝淇グ鑴稿瀷鏁堟灉鏋佷匠銆?/p>
+      <span class="tag">鐧炬惌</span><span class="tag">鍑忛緞</span><span class="tag">閫氬嫟</span>
+      <div class="photo-card"><div class="photo-placeholder">鉁傦笍</div><div class="label">姝ｉ潰</div></div>
+      <div class="photo-card"><div class="photo-placeholder">鉁傦笍</div><div class="label">渚ч潰</div></div>
+      <div class="photo-card"><div class="photo-placeholder">鉁傦笍</div><div class="label">鑳岄潰</div></div>
+      <div class="prompt-box">
+        <h3>馃 AI 鐢熷浘鎻愮ず璇?/h3>
+        <pre>銆愭闈€?2-year-old East Asian woman, layered short hair, hair length to cheekbone, neat layers, black straight hair, pure white background, soft frontal lighting, sharp focus, high quality portrait photo, looking straight at camera
+銆愪晶闈€慡ame person, same hairstyle, pure white background, soft side lighting, high quality portrait photo, 90-degree side profile
+銆愯儗闈€慡ame person, same hairstyle, pure white background, soft back lighting, high quality portrait photo, 180-degree back view</pre>
+        <button class="copy-btn" onclick="navigator.clipboard.writeText(this.previousElementSibling.innerText)">馃搵 澶嶅埗</button>
+      </div>
+    </div>
+
+    <!-- 瀛︾敓鐭彂 -->
+    <div class="style-item" id="style-2">
+      <h2>瀛︾敓鐭彂</h2>
+      <p class="desc">榻愯€崇煭鍙戯紝鏁撮綈鍒╄惤锛屽垬娴疯嚜鐒朵笅鍨傦紝鏄竻绾皯濂崇殑鏍囬厤鍙戝瀷銆?/p>
+      <span class="tag">娓呯函</span><span class="tag">娲诲姏</span><span class="tag">鏃ュ父</span>
+      <div class="photo-card"><div class="photo-placeholder">馃摎</div><div class="label">姝ｉ潰</div></div>
+      <div class="photo-card"><div class="photo-placeholder">馃摎</div><div class="label">渚ч潰</div></div>
+      <div class="photo-card"><div class="photo-placeholder">馃摎</div><div class="label">鑳岄潰</div></div>
+      <div class="prompt-box">
+        <h3>馃 AI 鐢熷浘鎻愮ず璇?/h3>
+        <pre>銆愭闈€?2-year-old East Asian woman, student short hair, ear-length straight bob, natural bangs, black hair, pure white background, soft frontal lighting, sharp focus, high quality portrait photo, looking straight at camera, youthful appearance
+銆愪晶闈€慡ame person, same hairstyle, pure white background, soft side lighting, high quality portrait photo, 90-degree side profile
+銆愯儗闈€慡ame person, same hairstyle, pure white background, soft back lighting, high quality portrait photo, 180-degree back view</pre>
+        <button class="copy-btn" onclick="navigator.clipboard.writeText(this.previousElementSibling.innerText)">馃搵 澶嶅埗</button>
+      </div>
+    </div>
+
+    <!-- 瓒呯煭鍙?-->
+    <div class="style-item" id="style-3">
+      <h2>瓒呯煭鍙?/h2>
+      <p class="desc">鑰充笂绮剧伒澶达紝涓€у竻姘旓紝涓€ч鍗佽冻锛岄€傚悎杩芥眰鍒╄惤鎰熺殑濂崇敓銆?/p>
+      <span class="tag">甯呮皵</span><span class="tag">涓€?/span><span class="tag">涓€?/span>
+      <div class="photo-card"><div class="photo-placeholder">馃</div><div class="label">姝ｉ潰</div></div>
+      <div class="photo-card"><div class="photo-placeholder">馃</div><div class="label">渚ч潰</div></div>
+      <div class="photo-card"><div class="photo-placeholder">馃</div><div class="label">鑳岄潰</div></div>
+      <div class="prompt-box">
+        <h3>馃 AI 鐢熷浘鎻愮ず璇?/h3>
+        <pre>銆愭闈€?2-year-old East Asian woman, pixie cut, very short hair above ear, side-swept bangs, black hair, pure white background, soft frontal lighting, sharp focus, high quality portrait photo, looking straight at camera, androgynous style
+銆愪晶闈€慡ame person, same hairstyle, pure white background, soft side lighting, high quality portrait photo, 90-degree side profile
+銆愯儗闈€慡ame person, same hairstyle, pure white background, soft back lighting, high quality portrait photo, 180-degree back view</pre>
+        <button class="copy-btn" onclick="navigator.clipboard.writeText(this.previousElementSibling.innerText)">馃搵 澶嶅埗</button>
+      </div>
+    </div>
+
+    <!-- 椴婚奔澶?-->
+    <div class="style-item" id="style-4">
+      <h2>椴婚奔澶?/h2>
+      <p class="desc">鍓嶉暱鍚庣煭锛屽眰娆″姣斿己鐑堬紝鏄繎骞存潵鏈€鐏殑娼祦鍙戝瀷涔嬩竴锛岀敺濂崇殕瀹溿€?/p>
+      <span class="tag">娼祦</span><span class="tag">涓€?/span><span class="tag">鍨嬫牸</span>
+      <div class="photo-card"><div class="photo-placeholder">馃悷</div><div class="label">姝ｉ潰</div></div>
+      <div class="photo-card"><div class="photo-placeholder">馃悷</div><div class="label">渚ч潰</div></div>
+      <div class="photo-card"><div class="photo-placeholder">馃悷</div><div class="label">鑳岄潰</div></div>
+      <div class="prompt-box">
+        <h3>馃 AI 鐢熷浘鎻愮ず璇?/h3>
+        <pre>銆愭闈€?2-year-old East Asian woman, mullet hairstyle, long bangs in front, short back, layered contrast, black hair, pure white background, soft frontal lighting, sharp focus, high quality portrait photo, looking straight at camera
+銆愪晶闈€慡ame person, same hairstyle, pure white background, soft side lighting, high quality portrait photo, 90-degree side profile
+銆愯儗闈€慡ame person, same hairstyle, pure white background, soft back lighting, high quality portrait photo, 180-degree back view</pre>
+        <button class="copy-btn" onclick="navigator.clipboard.writeText(this.previousElementSibling.innerText)">馃搵 澶嶅埗</button>
+      </div>
+    </div>
+
+    <!-- 闊╃郴濡瑰澶?-->
+    <div class="style-item" id="style-5">
+      <h2>闊╃郴濡瑰澶?/h2>
+      <p class="desc">鍘氶噸鍒樻捣鎼厤榻愯剸鐩村彂锛岄煩鍓уコ涓诲悓娆撅紝娓╂煍鍙埍锛屾棤鏁屾樉瀚┿€?/p>
+      <span class="tag">闊╃郴</span><span class="tag">鍙埍</span><span class="tag">娓╂煍</span>
+      <div class="photo-card"><div class="photo-placeholder">馃懅</div><div class="label">姝ｉ潰</div></div>
+      <div class="photo-card"><div class="photo-placeholder">馃懅</div><div class="label">渚ч潰</div></div>
+      <div class="photo-card"><div class="photo-placeholder">馃懅</div><div class="label">鑳岄潰</div></div>
+      <div class="prompt-box">
+        <h3>馃 AI 鐢熷浘鎻愮ず璇?/h3>
+        <pre>銆愭闈€?2-year-old East Asian woman, Korean style "meimei head", thick straight bangs, chin-length straight hair, black hair, pure white background, soft frontal lighting, sharp focus, high quality portrait photo, looking straight at camera, cute Korean girl style
+銆愪晶闈€慡ame person, same hairstyle, pure white background, soft side lighting, high quality portrait photo, 90-degree side profile
+銆愯儗闈€慡ame person, same hairstyle, pure white background, soft back lighting, high quality portrait photo, 180-degree back view</pre>
+        <button class="copy-btn" onclick="navigator.clipboard.writeText(this.previousElementSibling.innerText)">馃搵 澶嶅埗</button>
+      </div>
+    </div>
+
+  </div>
+  <footer class="footer"><div class="footer-content"><p>馃崐 闃挎璇?漏 2026 | 鐢ㄧ埍鍙戠數涓?/p></div></footer>
+</body>
+</html>
